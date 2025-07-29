@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: border-box;
+}
+.navbar {
+    background-color: aliceblue;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ 
+ }
+a {
+    text-decoration: none;
+    color: black;
+
+}
+#lang {
+    height: 30px;
+    border: 2px solid transparent;
+}
+#lang:hover{
+    border: 2px solid black;
+}
+
+
+.bottom-header{
+    height: 100px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+.logo-area img{
+    width: 200px;
+  margin-left: 100px;
+   
+}
+.logo-digi img {
+    width: 190px;
+   margin-left: 580px;
+}
+.loginbtn ul  {
+    list-style-type: none;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #00a537;
+    column-gap: 8px;
+border-radius: 30px 0px 0px 30px;
+ margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+ font-size: 20px;
+ 
+
+}
+ .loginbtn a {
+    color: white;
+ }
+ .loginbtn {
+    padding-left: 30px;
+ }
+ .loginbtn ul::after{
+    content: '';
+    position: absolute;
+    right: 4px;
+    height: 60px;
+    width: 40px;
+    background-color: #ff6700;
+    border-radius: 30px 0px 0px 30px;
+ }
+ a:hover{
+    color: hsl(9, 92%, 47%);
+ }
+ .menubar {
+    background-color: #ff6700;
+ }
+ .menubar ul {
+    display: flex;
+    list-style-type: none;
+    height: 48px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 325px;
+    margin-left: 50px;
+ }
+ .menu a {
+    color: white;
+    font-size: 15px;
+    padding: 12px 10px 13px;
+ }
+ .menu a:hover{
+    background-color: blue;
+ }
+ h1{
+    color: #ff6700;
+    /* display: flex;
+    align-items: center; */
+    text-align: center;
+ }
+  .service ::after{
+    content: '';
+    width: 32px;
+    height: 2.4px;
+    background-color: #ff6700;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -50px;
+ }
+ 
